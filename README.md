@@ -1,4 +1,5 @@
-<h1 align="center"> Hey there, i'm Nich, and this is my simple and functional Timer!</h1>
+
+<h1 align="center"> Hey there, i'm Nich, and this is my simple and functional Calculator!</h1>
 <p align="center">
   <img src="https://github.com/italicnich/Timer/blob/main/readmeimg/gif.gif" alt="Page Preview">
 </p>
