@@ -16,10 +16,10 @@ In this project, I used four basic javascript functions. The start one, which re
 > *This image comes from my blog, check it out it's pretty cool*
 
 <h3 align="justify">
-I think another notable point is the stylization of the buttons. I think another notable point is the stylization of the buttons. And as mentioned in the last project, I will always leave the sources of these more complex css. I believe they add a lot to our learning. So I found this button template <a href="https://getcssscan.com/css-buttons-examples "> here </a> and it was produced by Michael McMillian
+I think another notable point is the stylization of the buttons. I think another notable point is the stylization of the buttons. And as mentioned in the last project, I will always leave the sources of this more complex CSS. I believe they add a lot to our learning. So I found this button template <a href="https://getcssscan.com/css-buttons-examples "> here </a> and it was produced by Michael McMillian
 </h3>
 <h3 align="justify">
-In the future I would like to insert a pomodoro clock in this application. Everything will be documented here and also on my blog:
+  Future I would like to insert a Pomodoro clock in this application. Everything will be documented here and also on my blog:
 </h3>
 <h3 align="center">
 Thanks for reading, see you soon
