@@ -1,5 +1,5 @@
 
-<h1 align="center"> Hey there, i'm Nich, and this is my simple and functional Calculator!</h1>
+<h1 align="center"> Hey there, i'm Nich, and this is my simple and functional Timer!</h1>
 <p align="center">
   <img src="https://github.com/italicnich/Timer/blob/main/readmeimg/timer-gif.gif" alt="Page Preview">
 </p>
@@ -10,7 +10,7 @@ Hey there, this was my first project with javascript. I'm still learning, but ma
 In this project, I used four basic javascript functions. The start one, which recursively calls another one to count the seconds minutes and hours, is actually updating the document. One to stop, which just ends the start call. And the last one to keep the two zeros (00:00) when the number is less than ten. We also have the use of location.reload() but this is very basic, it just reloads the page to restart the timer.
 </h3>
 <p align="center">
-  <img src="https://github.com/italicnich/Timer/blob/main/readmeimg/js-func-1.png" alt="Stopwatch" width="700">
+  <img src="https://github.com/italicnich/Timer/blob/main/readmeimg/js-func-1.png" alt="Javascript Function" width="700">
 </p>
 <h3 align="justify">
 I think another notable point is the stylization of the buttons. I think another notable point is the stylization of the buttons. And as mentioned in the last project, I will always leave the sources of this more complex CSS. I believe they add a lot to our learning. So I found this button template <a href="https://getcssscan.com/css-buttons-examples "> here </a> and it was produced by Michael McMillian
