@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <title>Timer</title>
 	<meta charset="UTF-8">
@@ -9,11 +9,31 @@
 <body>
     <div class="container">
         <h1 id="time">00:00:00</h1>
-        <button class="button-54" role="button" id="start_button" onclick="start()">Iniciar</button>
-        <button class="button-54" role="button" id="pause_button" onclick="pause()">Pausar</button>
-        <button class="button-54" role="button" id="reload_button" onclick="start()">Reiniciar</button>
-        <button class="button-54" role="button" id="stop_button" onclick="location.reload()">Parar</button>
+        <button class="button-54" role="button" id="start_button" onclick="start()">Start Timer</button>
+        <button class="button-54" role="button" id="reload_button" onclick="start()">Restart Timer</button>
+        <button class="button-54" role="button" id="pause_button" onclick="pause()">Pause</button>
+        <button class="button-54" role="button" id="stop_button" onclick="location.reload()">Stop</button>
+        <br>
+        <button class="button-54" role="button" id="stopwatch_button" onclick="active_popup()">Start Stopwatch</button>
+        <button class="button-54" role="button" id="reload_button" onclick="restart_stopwatch()">Restart Stopwatch</button>
+        <br>
+        <button class="button-54" role="button" id="pomodoro_button" onclick="pomodoro()"> Start Pomodoro</button>
+        <button class="button-54" role="button" id="reload_button" onclick="restart_stopwatch()">Restart Pomodoro</button>
+
+        <div class="popup-wrapper">
+            <div class="popup" >
+                <div class="popup-close" onclick="close_popup()">x</div>
+                <div class="popup-content">
+                    <h2>How Much?</h2><br>
+                    <input type="number"  placeholder="Hours" id="hours_input" >
+                    <input type="number"  placeholder="Minutes" id="min_input" >
+                    <input type="number"  placeholder="Seconds" id="sec_input" > <br>
+                    <button class="button-54" id="pop-button" onclick="collect_popup(), stopwatch(), close_popup()">Ok!</button>
+                </div>
+            </div>
+        </div>
     </div> 
+    
 </body>
 <script src="script.js"></script>
 </html>
