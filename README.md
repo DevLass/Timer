@@ -24,6 +24,9 @@ I think another notable point is the stylization of the buttons. I think another
 <h3 align="center">
 Thanks for reading, see you soon
 </h3>
+<h3 align="justify">
+  So this day has finally come, I added a stopwatch and a Pomodoro:
+</h3>
 
 > *Never stop the griding.*
 
